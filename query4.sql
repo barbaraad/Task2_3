@@ -1,0 +1,2 @@
+SELECT "ID_emp" FROM evaluations
+WHERE (first_quartile='D' or first_quartile='E') or (second_quartile='D' or second_quartile='E') or (third_quartile='D'or third_quartile='E') or (fouth_quartile='D' or fouth_quartile='E');
